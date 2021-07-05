@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(13, 150, 13);
+}
+label.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  padding: 0 100px;
+  line-height: 80px;
+}
+nav ul {
+  float: right;
+  margin-right: 40px;
+}
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 80px;
+}
+nav a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 7px 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+a.active,
+a:hover {
+  border: 1px solid white;
+  transition: 0.5s;
+}
+.testimonials {
+  max-width: 1335px;
+}
+.flexbox-container-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-item-4 {
+  width: 28%;
+  box-sizing: border-box;
+  padding: 7px;
+  margin: 0 auto;
+}
+
+.flex-item-4 p {
+  font-size: 20px;
+}
+.flex-item-4 img {
+  width: 200px;
+  height: 200px;
+  margin-left: 25%;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+}
+
+.name {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+.section-header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 5px;
+  padding-top: 4rem;
+}
+.section-header h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 1em;
+  color: #2a1c22;
+  font-weight: 10;
+}
