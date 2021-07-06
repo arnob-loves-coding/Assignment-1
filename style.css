@@ -135,9 +135,10 @@ a:hover {
   font-size: 32px;
   color: #2a1c22;
   font-weight: 10;
+  margin-bottom: 20px;
 }
 .recipies > p {
-  margin-block: 15px;
+  margin-block: 7px;
 }
 .flexbox-container-3 {
   display: flex;
