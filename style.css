@@ -11,12 +11,11 @@ body {
 nav {
   height: 80px;
   width: 100%;
-  background-color: rgb(13, 150, 13);
+  background-color: #eee;
 }
 label.logo {
   font-size: 35px;
   font-weight: bold;
-  color: white;
   padding: 0 100px;
   line-height: 80px;
   cursor: pointer;
@@ -31,7 +30,7 @@ nav li {
   line-height: 80px;
 }
 nav a {
-  color: white;
+  color: black;
   font-size: 18px;
   text-transform: uppercase;
   padding: 7px 10px;
@@ -40,7 +39,7 @@ nav a {
 }
 a.active,
 a:hover {
-  border: 1px solid white;
+  border: 3px solid white;
   transition: 0.5s;
 }
 .flexbox-container-1 {
@@ -77,9 +76,6 @@ a:hover {
 }
 .orange-color {
   color: orange;
-}
-.green {
-  color: rgb(16, 128, 16);
 }
 .flex-item-1 > h1 {
   font-size: 35px;
@@ -164,6 +160,7 @@ a:hover {
 }
 
 .flex-item-3 p {
+  text-align: left;
   padding-inline: 10px;
   padding-bottom: 7px;
 }
@@ -182,6 +179,8 @@ a:hover {
   width: 28%;
   padding: 7px;
   margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 15px;
 }
 
 .flex-item-4 p {
