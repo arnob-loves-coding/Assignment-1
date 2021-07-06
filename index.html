@@ -4,52 +4,140 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Assignment-1</title>
   </head>
   <body>
     <!-- navbar -->
     <nav>
-      <label class="logo">Nav Logo</label>
+      <label class="logo">My Kitchen</label>
       <ul id="togglingUl">
         <li><a class="active" href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Service</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="#reviews">Reviews</a></li>
       </ul>
     </nav>
 
-    <!-- testimonials section -->
-    <section class="testimonials">
-      <div class="section-header">
-        <h1>Testimonials</h1>
-        <div class="flexbox-container-4">
-          <div class="flex-item-4">
-            <img src="images/test1.webp" alt="" />
-            <div class="name">Neena Chatterjee</div>
-            <p>
-              I would recommend their products. Much friendly in interaction
-              too.
-            </p>
-          </div>
-          <div class="flex-item-4">
-            <img src="images/test2.jpg" alt="" />
-            <div class="name">Avilash Roy</div>
-            <p>
-              Bought a watch and a western hat. They seem to last longer! Happy.
-            </p>
-          </div>
-          <div class="flex-item-4">
-            <img src="images/test3.jpg" alt="" />
-            <div class="name">Henric Roberto</div>
-            <p>
-              Whoever is on hurry can surly buy their exclusive materials in
-              time.
-            </p>
-          </div>
+    <!-- banner section -->
+    <section class="banner flexbox-container-1">
+      <div class="flex-item-1">
+        <h1><span class="orange-color">Skip</span> The Diet</h1>
+        <h1>Just Eat Healthy</h1>
+        <h1>With Food Network</h1>
+        <p>
+          Imagine you don't need a diet because we provide healthy and delicious
+          food for you
+        </p>
+        <button>
+          <a href="https://github.com/arnob-loves-coding">Order Food</a>
+        </button>
+      </div>
+      <div class="flex-item-1">
+        <img src="images/female/Group 8425.png" alt="female" />
+      </div>
+    </section>
+
+    <!-- about me -->
+    <section class="aboutMe flexbox-container-2">
+      <div class="flex-item-2 me">
+        <img src="images/female/Group 8449.png" alt="" />
+      </div>
+      <div class="flex-item-2 down">
+        <h2>About Me</h2>
+        <p>
+          I am a self-taught chef. I can cook nutrituos food alngside keeping it
+          tasty and yummy. For 10 years, I have worked with KFC what made me
+          feel like that is not the food people should eat. So I had to leave
+          off them and make my own online restaurant. I hope you will like it.
+        </p>
+        <button>
+          <a href="https://github.com/arnob-loves-coding">Contact Me</a>
+        </button>
+      </div>
+    </section>
+
+    <!-- recipies -->
+    <section class="recipies">
+      <h1 style="text-align: center">My Recipies</h1>
+      <p style="text-align: center">
+        These are my brand-new recipies. They are completely packaged with much
+        vegetables, pure nutrition and savoury taste. Check them out.
+      </p>
+      <div class="flexbox-container-3">
+        <div class="flex-item-3">
+          <img src="images/food/Project Cover.jpg" alt="" />
+          <h3>Mashroom Salsa</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, cupiditate. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Est, non.
+          </p>
+        </div>
+        <div class="flex-item-3">
+          <img src="images/food/Project Cover.png" alt="" />
+          <h3>Lentil Soup</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, cupiditate. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Est, non.
+          </p>
+        </div>
+        <div class="flex-item-3">
+          <img src="images/food/Project Cover5.png" alt="" />
+          <h3>Veggie Shutter</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Consectetur, cupiditate. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Est, non.
+          </p>
         </div>
       </div>
     </section>
+
+    <!-- reviews -->
+    <section class="reviews">
+      <h1 id="reviews">Reviews</h1>
+      <div class="flexbox-container-4">
+        <div class="flex-item-4">
+          <img src="images/test1.webp" alt="" />
+          <div class="name green">Neena Chatterjee</div>
+          <p>
+            I would recommend their products. Much friendly in interaction too.
+          </p>
+        </div>
+        <div class="flex-item-4">
+          <img src="images/test2.jpg" alt="" />
+          <div class="name green">Avilash Roy</div>
+          <p>
+            Bought a watch and a western hat. They seem to last longer! Happy.
+          </p>
+        </div>
+        <div class="flex-item-4">
+          <img src="images/test3.jpg" alt="" />
+          <div class="name green">Henric Roberto</div>
+          <p>
+            Whoever is on hurry can surly buy their exclusive materials in time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer
+      style="background-color: black; text-align: center; min-height: 40vh"
+    >
+      <h1 style="color: grey; padding-block: 30px">
+        <span class="orange-color">My</span> Kitchen
+      </h1>
+      <p style="color: white">
+        Eat healthy to live healthy. Live healthy to live happy
+      </p>
+    </footer>
   </body>
 </html>

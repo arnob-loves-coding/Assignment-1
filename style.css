@@ -6,6 +6,7 @@
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 nav {
   height: 80px;
@@ -41,23 +42,135 @@ a:hover {
   border: 1px solid white;
   transition: 0.5s;
 }
-.testimonials {
+.flexbox-container-1 {
+  display: flex;
+  margin-top: 50px;
+}
+.flex-item-1 {
+  flex-basis: 50%;
+  padding-left: 10%;
+}
+.flex-item-1 p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.flex-item-1 img {
+  width: 60%;
+}
+.flex-item-1 button {
+  margin-top: 40px;
+  border: transparent;
+}
+.flex-item-1 button a {
+  padding: 10px;
+  padding-inline: 15px;
+  font-size: 20px;
+  background-image: linear-gradient(#fc8f49, orangered);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.orange-color {
+  color: orange;
+}
+.green {
+  color: rgb(16, 128, 16);
+}
+.flex-item-1 > h1 {
+  font-size: 35px;
+  line-height: 65px;
+  white-space: nowrap;
+}
+
+.flexbox-container-2 {
+  display: flex;
+  margin-top: 120px;
+  margin-bottom: 95px;
+}
+.flex-item-2 {
+  flex-basis: 50%;
+}
+.flex-item-2 img {
+  width: 60%;
+  padding-left: 70px;
+}
+.down {
+  margin-top: 65px;
+}
+.flex-item-2 button {
+  margin-top: 40px;
+  border: transparent;
+}
+.flex-item-2 button a {
+  padding: 10px;
+  padding-inline: 15px;
+  font-size: 20px;
+  background-image: linear-gradient(#fc8f49, orangered);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.flex-item-2 p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 30px;
+  padding-right: 70px;
+}
+.flex-item-2 h2 {
+  font-size: 30px;
+  color: grey;
+}
+.recipies h1 {
+  font-size: 32px;
+  color: #2a1c22;
+  font-weight: 10;
+}
+.recipies > p {
+  margin-block: 30px;
+}
+.flexbox-container-3 {
+  display: flex;
+}
+.flex-item-3 {
+  width: 28%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 1px 1px 8px grey;
+  margin: 20px;
+  border-radius: 30px;
+}
+.flex-item-3 img {
+  width: 360px;
+  height: 55%;
+  padding-top: 10px;
+}
+
+.flex-item-3 p {
+  padding-inline: 10px;
+  padding-bottom: 7px;
+}
+.flex-item-3:nth-child(3) img {
+  border-radius: 20px;
+}
+
+.reviews {
   max-width: 1335px;
 }
 .flexbox-container-4 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 .flex-item-4 {
   width: 28%;
-  box-sizing: border-box;
   padding: 7px;
   margin: 0 auto;
 }
 
 .flex-item-4 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .flex-item-4 img {
   width: 200px;
@@ -69,19 +182,17 @@ a:hover {
 
 .name {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   margin: 20px 0;
 }
-.section-header {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 5px;
-  padding-top: 4rem;
+.reviews {
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
-.section-header h1 {
+.reviews h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 32px;
   padding: 1em;
-  color: #2a1c22;
-  font-weight: 10;
+  color: grey;
+  font-weight: 400;
 }
