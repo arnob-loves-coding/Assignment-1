@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+
+    <!-- css link -->
     <link rel="stylesheet" href="style.css" />
     <title>Assignment-1</title>
   </head>
@@ -17,18 +21,18 @@
     <!-- navbar -->
     <nav>
       <label class="logo">My Kitchen</label>
-      <ul id="togglingUl">
+      <ul>
         <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#myRecipies">Recipies</a></li>
         <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
-    <!-- banner section -->
+    <!-- banner -->
     <section class="banner flexbox-container-1">
-      <div class="flex-item-1">
+      <div class="flex-item-1 banner-text">
         <h1><span class="orange-color">Skip</span> The Diet</h1>
         <h1>Just Eat Healthy</h1>
         <h1>With Food Network</h1>
@@ -41,14 +45,14 @@
         </button>
       </div>
       <div class="flex-item-1">
-        <img src="images/female/Group 8425.png" alt="female" />
+        <img src="images/female/female-1.png" alt="female" />
       </div>
     </section>
 
     <!-- about me -->
-    <section class="aboutMe flexbox-container-2">
+    <section class="aboutMe flexbox-container-2" id="about">
       <div class="flex-item-2 me">
-        <img src="images/female/Group 8449.png" alt="" />
+        <img src="images/female/female-2.png" alt="" />
       </div>
       <div class="flex-item-2 down">
         <h2>About Me</h2>
@@ -65,15 +69,15 @@
     </section>
 
     <!-- recipies -->
-    <section class="recipies">
-      <h1 style="text-align: center">My Recipies</h1>
-      <p style="text-align: center">
+    <section class="recipies" id="myRecipies">
+      <h1>My Recipies</h1>
+      <p>
         These are my brand-new recipies. They are completely packaged with much
         vegetables, pure nutrition and savoury taste. Check them out.
       </p>
       <div class="flexbox-container-3">
         <div class="flex-item-3">
-          <img src="images/food/Project Cover.jpg" alt="" />
+          <img src="images/food/food-1.jpg" alt="" />
           <h3>Mashroom Salsa</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -82,7 +86,7 @@
           </p>
         </div>
         <div class="flex-item-3">
-          <img src="images/food/Project Cover.png" alt="" />
+          <img src="images/food/food-2.png" alt="" />
           <h3>Lentil Soup</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -91,7 +95,7 @@
           </p>
         </div>
         <div class="flex-item-3">
-          <img src="images/food/Project Cover5.png" alt="" />
+          <img src="images/food/food-3.png" alt="" />
           <h3>Veggie Shutter</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -107,21 +111,21 @@
       <h1 id="reviews">Reviews</h1>
       <div class="flexbox-container-4">
         <div class="flex-item-4">
-          <img src="images/test1.webp" alt="" />
+          <img src="images/reviewer/reviewer-1.webp" alt="" />
           <div class="name green">Neena Chatterjee</div>
           <p>
             I would recommend their products. Much friendly in interaction too.
           </p>
         </div>
         <div class="flex-item-4">
-          <img src="images/test2.jpg" alt="" />
+          <img src="images/reviewer/reviewer-2.jpg" alt="" />
           <div class="name green">Avilash Roy</div>
           <p>
             Bought a watch and a western hat. They seem to last longer! Happy.
           </p>
         </div>
         <div class="flex-item-4">
-          <img src="images/test3.jpg" alt="" />
+          <img src="images/reviewer/reviewer-3.jpg" alt="" />
           <div class="name green">Henric Roberto</div>
           <p>
             Whoever is on hurry can surly buy their exclusive materials in time.
@@ -129,15 +133,12 @@
         </div>
       </div>
     </section>
-    <footer
-      style="background-color: black; text-align: center; min-height: 40vh"
-    >
-      <h1 style="color: grey; padding-block: 30px">
-        <span class="orange-color">My</span> Kitchen
-      </h1>
-      <p style="color: white">
-        Eat healthy to live healthy. Live healthy to live happy
-      </p>
+
+    <!-- footer -->
+    <footer id="contact">
+      <h1><span class="orange-color">My</span> Kitchen</h1>
+      <p>Eat healthy to live healthy. Live healthy to live happy</p>
+      <p>Contact: arnobroy.du@gmail.com</p>
     </footer>
   </body>
 </html>
