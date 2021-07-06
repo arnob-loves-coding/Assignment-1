@@ -137,7 +137,7 @@ a:hover {
   font-weight: 10;
 }
 .recipies > p {
-  margin-block: 30px;
+  white-space: nowrap;
 }
 .flexbox-container-3 {
   display: flex;
